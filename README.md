@@ -53,9 +53,9 @@ node --version  # 应显示v18.0.0或更高版本
 -   **描述**: 简要描述，例如 `让 AI 去求助别的 AI`。
 -   **类型**: 选择 `标准输入/输出 (stdio)`。
 -   **命令**: 输入 `node`。
--   **参数**: 输入指向本项目 **编译后** 的 `index.js` 文件的 **绝对路径**。例如: `H:\MCP\AIHelpAI-MCP\build\index.js` (请根据您的实际路径修改)。
+-   **参数**: 输入指向本项目 **编译后** 的 `index.js` 文件的 **绝对路径**。例如: `实际地址\AIHelpAI-MCP\build\index.js` (请根据您的实际路径修改)。
 -   **环境变量**:
-    -   添加 `API_URL`，值为您的 API 代理 URL (例如 `http://192.168.2.179:3000`)。
+    -   添加 `API_URL`，值为您的 API 代理 URL (例如 `http://localhost:3000`)。
     -   添加 `API_KEY`，值为您的 API 密钥 (例如 `sk-xxxxxxxx`)。
 
 保存配置后，客户端应该能够启动并连接到这个 MCP 服务器。
