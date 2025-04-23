@@ -42,7 +42,7 @@ node --version  # 应显示v18.0.0或更高版本
 
 此 MCP 服务器本身**不**读取 `.env` 文件。您需要在**启动此 MCP 服务器的客户端应用程序**（例如您的 AI 聊天界面或 MCP 管理工具）中配置以下环境变量：
 
-1.  **`API_URL`**: 指向您的 OpenAI 兼容 API 代理服务器的 **基础 URL** (例如: `http://192.168.2.179:3000`)。服务器代码会自动添加 `/v1/chat/completions` 路径。
+1.  **`API_URL`**: 指向您的 OpenAI 兼容 API 代理服务器的 **基础 URL** (例如: `http://localhost:3000`)。服务器代码会自动添加 `/v1/chat/completions` 路径。
 2.  **`API_KEY`**: 用于访问您的 API 代理的密钥 (例如: `sk-xxxxxxxx`)。
 
 ### 客户端配置示例 (例如在 VS Code MCP 插件中)
