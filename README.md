@@ -1,4 +1,4 @@
-# AI Helper MCP 服务器
+# AI Help AI MCP 服务器
 
 这是一个基于 Model Context Protocol (MCP) 的服务器，允许 AI 代理通过 MCP 协议向其他配置好的大型语言模型（LLM）请求帮助或咨询。
 
